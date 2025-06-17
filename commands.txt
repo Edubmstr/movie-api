@@ -1,9 +1,10 @@
 Build Image:
 
-docker buildx build --load -t hono-movie-api:latest .
-docker build -t hono-movie-api:latest .
+docker buildx build --load -t hono-movie-api:latest . # "Moderner" Befehl mit BuildKit
+docker build -t hono-movie-api:latest . # Klassischer Befehl
 
 Start Container:
 
-docker run -d -p 3000:3000 hono-movie-api
-docker run -d --restart unless-stopped -p 3000:3000 hono-movie-api
+docker run -p 3000:3000 hono-movie-api # Container normal in Konsole starten
+docker run -d -p 3000:3000 hono-movie-api # Container detached starten
+docker run -d --restart unless-stopped -p 3000:3000 hono-movie-api # Restart Policy hinzufügen
