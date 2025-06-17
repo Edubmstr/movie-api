@@ -1,6 +1,6 @@
 # 🎬 hono-movie-api – Dockerized TypeScript App
 
-Dieses Projekt ist ein Beispiel für eine Node.js TypeScript-Anwendung, die mit einem **mehrstufigen Dockerfile** gebaut und als schlankes Production-Image ausgeführt wird.
+Beispielsprojekt für eine containerized Applikation mit Hilfe von Docker.
 
 ---
 
