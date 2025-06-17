@@ -4,20 +4,6 @@ Beispielsprojekt für eine containerized Applikation mit Hilfe von Docker.
 
 ---
 
-## 📁 Projektstruktur
-
-```
-.
-├── Dockerfile
-├── package.json
-├── tsconfig.json
-├── src/
-│   └── index.ts
-└── README.md
-```
-
----
-
 ## 🐳 Dockerfile
 
 ```Dockerfile
