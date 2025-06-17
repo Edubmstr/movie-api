@@ -1,0 +1,9 @@
+Build Image:
+
+docker buildx build --load -t hono-movie-api:latest .
+docker build -t hono-movie-api:latest .
+
+Start Container:
+
+docker run -d -p 3000:3000 hono-movie-api
+docker run -d --restart unless-stopped -p 3000:3000 hono-movie-api
