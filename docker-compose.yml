@@ -1,0 +1,7 @@
+services:
+  movie-api:
+    image: hono-movie-api
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    container_name: hono-movie-api
