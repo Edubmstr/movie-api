@@ -111,3 +111,12 @@ docker run -d --restart unless-stopped -p 3000:3000 hono-movie-api
   - er abstürzt
   - Docker neu startet
   - Host neu gestartet wird
+
+### 4. Mit Docker Compose
+
+Im Ordner, in dem das docker-compose.yaml liegt zum starten ersten Befehl, zum stoppen den zweiten Befehl ausführen:
+
+```bash
+docker compose up -d
+docker compose down
+```
