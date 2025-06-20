@@ -8,3 +8,7 @@ Start Container:
 docker run -p 3000:3000 hono-movie-api # Container normal in Konsole starten
 docker run -d -p 3000:3000 hono-movie-api # Container detached starten
 docker run -d --restart unless-stopped -p 3000:3000 hono-movie-api # Restart Policy hinzufügen
+
+Docker Compose:
+
+(Im Ordner wo das docker-compose.yaml liegt) docker compose up -d
